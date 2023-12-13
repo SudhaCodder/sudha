@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #222; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    height: 570px;
+    width: 298px;
+    background: #222;
+    border-radius: 25px;
+    filter:drop-shadow(6px 9px 5px black) ;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.phone::-webkit-scrollbar{
+    display: none;
+}
+.div::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    margin-top: 5px;
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7%;
+}
+
+.nav img{
+    height: 50px;
+    margin-left: -15px;
+}
+.nav ul{
+    display: flex;
+    gap: 10px;
+}
+.nav ul i{
+    color: white;
+}
+.videos{
+    height: 130px;
+    width: 100%;
+    padding: 2%;
+    /* background: #fff; */
+    margin-top: 2%;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+.thumb {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2%;
+}
+h3{
+    font-size: 11px;
+    position: relative;
+    left: 18%;
+    width: 220px;
+    margin-top: -45px;
+    color:#fff;
+}
+span{
+    font-size: 9px;
+    position: relative;
+    left: 18%;
+    width: 230px;
+    margin-top: -45px;
+    color: #fff;
+}
+.div{
+    display: inline-block;
+    height: 495px;
+    overflow-y: auto;
+    position: relative;
+}
+.nav h3{
+    position: absolute;
+    left: 56px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: oswald;
+    font-weight: 500;
+}
